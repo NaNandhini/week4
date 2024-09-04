@@ -1,3 +1,3 @@
 FROM openjdk:22
-COPY ./target/wee4.jar week4.jar
-CMD ["java","-jar","week4.jar"]
+COPY ./target/greetingapp.jar greetingapp.jar
+CMD ["java","-jar","greetingapp.jar"]
