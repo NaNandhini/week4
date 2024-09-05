@@ -20,9 +20,9 @@ public class GreetingappApplication {
 	public String greeting() {
 		return "greetings from spring boot greeting app";
 	}
-	@GetMapping("/final")
-	public String final() {
-		return "final from spring boot greeting app";
+	@GetMapping("/hello")
+	public String hello() {
+		return "hello from spring boot greeting app";
 	}
 
 }
